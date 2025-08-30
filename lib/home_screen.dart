@@ -4,8 +4,9 @@ class HomeScreen extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.orange,
       appBar: AppBar(
-        backgroundColor:Color.fromRGBO(2, 67, 131, 1),
+        backgroundColor:Colors.red,
         centerTitle: true,
         title:Text('Practice',
           style: TextStyle(
